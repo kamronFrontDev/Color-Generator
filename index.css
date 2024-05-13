@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #8a6cff;
+}
+.wrapper{
+    width: 650px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.gradient-box{
+    width: 100%;
+    height: 320px;
+    border-radius: 7px;
+    background: linear-gradient(to left top, #977DFE, #6878FF);
+}
+.main :where(.column, button) {
+    width: calc(100% / 2 - 12px);
+}
+.main{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.options p{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.select-box{
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+}
+.select-box select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.options .colors{
+    margin-left: 60px;
+}
+input{
+    height: 41px;
+    width: calc(100% / 2 - 20px);
+    margin: 3px;
+}
+textarea{
+    width: 100%;
+    padding: 10px 15px;
+    color: #333;
+    border: 7px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    resize: none;
+}
+button{
+    padding: 20px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 -15px;
+    color: #fff;
+    width: 220px;
+    background-color: #8a6cff;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
